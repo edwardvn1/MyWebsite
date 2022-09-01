@@ -1,0 +1,8 @@
+<div [ngClass]="{
+    tileContainerMedium: screenSize == 'medium',
+    tileContainerSmall: screenSize == 'small', 
+    tileContainerLarge: screenSize == 'large',
+    tileContainerOther: screenSize == 'other'
+  }">
+  <app-tile [screenSize]="screenSize" *ngFor="let tile of newTiles" [newTile]="tile"></app-tile>
+</div>

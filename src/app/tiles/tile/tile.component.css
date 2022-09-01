@@ -1,0 +1,125 @@
+.icons{
+    margin: 0px;
+    width: 25%;
+    padding: 0px;
+    align-self: end;
+    filter: brightness(100);
+}
+
+.tile{ 
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.tileLarge{
+    box-sizing: border-box;  
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+}
+
+.tileMedium{
+    box-sizing: border-box;  
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+}
+
+.tileSmall{
+    box-sizing: border-box;  
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+}
+
+.tileOther{
+    box-sizing: border-box;  
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+}
+
+.iconText{
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 20px;
+    align-self: start;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.iconTextMedium{
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 20px;
+    align-self: start;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.iconTextSmall{
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    align-self: center;
+    font-size: 1em;
+    justify-self: center;
+    text-align: center;
+    margin: 0px;
+    line-height: 1.1em;
+}
+
+.iconTextOther{
+    color: white;
+    letter-spacing: 0.2em;
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    text-align: center;
+    align-self: center;
+    font-size: 0.7em;
+    justify-self: center;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.tile:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+    border: 2px solid rgb(254, 155, 61);
+}
+
+.iconSmall{
+    margin: 0px;
+    width: 35%;
+    padding: 0px;
+    display: none;
+    align-self: center;
+}
+.iconMedium{
+    margin: 0px;
+    width: 25%;
+    padding: 0px;
+    align-self: end;
+}
+.iconOther{
+    display: none;
+}
+
+.activePanel{
+    
+    border: 2px solid rgb(254, 155, 61);
+}

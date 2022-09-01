@@ -1,0 +1,167 @@
+.mainContainerLarge{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    width: 100%;
+    margin: auto;
+}
+
+.mainContainerMedium{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    margin: auto;
+}
+
+.mainContainerSmall{
+    width: 90%;
+    padding: 7% 0 0 5%;
+}
+
+.mainContainerOther{
+    width: 90%;
+    padding: 7% 0 0 5%;
+}
+
+#mainHeadingText{
+    grid-column: 2/4;
+    line-height: 1em;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+    color: white;
+    font-size: 7em;
+    transition: 0.2s;
+}
+
+.subTitleLarge{
+    color: rgba(255,255,255,0.7);
+    grid-column: 2/4;
+    margin-bottom: 30px;
+}
+
+.subTitleSmall{
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 30px;
+}
+.portfolioImagesLarge{
+    grid-column: 1/5;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 0% 18%;
+}
+.portfolioImagesMedium{
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 0% 10% 0% 10%;
+}
+.portfolioImagesSmall{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 3% 10% 7% 6%;
+}
+.portfolioImagesOther{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 3% 10% 7% 6%;
+}
+
+.portfolioImage{
+    width: 90%;
+    cursor: pointer;
+    transition: 0.3s;
+    justify-self: center;
+}
+
+.imageContainer:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.imageContainer{
+    justify-self: center;
+    text-align: center;
+    height: 150px;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.imageText{
+    width: 100%;
+    /* background-color: rgb(20, 0, 0, 0.8); */
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+}
+
+.tiles{
+    grid-column: 2/4;
+    justify-items: center;
+}
+
+.portfolioImage:hover{
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.3);
+    width: 100%;
+}
+
+.portfolioHeadingLarge{
+    grid-column: span 4;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.portfolioHeadingMedium{
+    grid-column: span 2;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.portfolioHeadingSmall{
+    grid-column: span 1;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.portfolioHeadingOther{
+    grid-column: span 1;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.sideTiles{
+    grid-column: 2/4;
+}

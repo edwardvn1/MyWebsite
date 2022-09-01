@@ -1,0 +1,23 @@
+<div [ngStyle]="{borderColor: getColor(newTile.activePanel), borderSize: '1px'}" (click)="setActiveTile(newTile.tileNumber)" 
+  class="tile" id="tile1">
+  <div [ngClass]="{
+    tileMedium: screenSize == 'medium',
+    tileSmall: screenSize == 'small', 
+    tileLarge: screenSize == 'large',
+    tileOther: screenSize == 'other'
+  }">
+    <img src="{{ newTile.iconPath }}" [ngClass]="{
+        iconMedium: screenSize == 'medium',
+        iconSmall: screenSize == 'small', 
+        icons: screenSize == 'large',
+        iconOther: screenSize == 'other'
+      }" alt="">
+    <p [ngClass]="{
+        iconTextMedium: screenSize == 'medium',
+        iconTextSmall: screenSize == 'small', 
+        iconText: screenSize == 'large',
+        iconTextOther: screenSize == 'other'
+      }">
+      {{ newTile.iconText }}</p>
+  </div>
+</div>
